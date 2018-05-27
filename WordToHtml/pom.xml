@@ -12,6 +12,7 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<xdocreport-version>1.0.6</xdocreport-version>
 	</properties>
 
 	<dependencies>
@@ -24,12 +25,17 @@
 		<dependency>
 			<groupId>fr.opensagres.xdocreport</groupId>
 			<artifactId>fr.opensagres.xdocreport.document</artifactId>
-			<version>1.0.5</version>
+			<version>${xdocreport-version}</version>
 		</dependency>
 		<dependency>
 			<groupId>fr.opensagres.xdocreport</groupId>
 			<artifactId>org.apache.poi.xwpf.converter.xhtml</artifactId>
-			<version>1.0.5</version>
+			<version>${xdocreport-version}</version>
+		</dependency>
+		<dependency>
+			<groupId>fr.opensagres.xdocreport</groupId>
+			<artifactId>org.apache.poi.xwpf.converter.pdf</artifactId>
+			<version>${xdocreport-version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.poi</groupId>
